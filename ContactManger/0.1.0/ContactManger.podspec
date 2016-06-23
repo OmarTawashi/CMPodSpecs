@@ -20,11 +20,11 @@ s.author = { "Omar Al tawashi" => "omaromar510@gmail.com" }
 
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
-s.homepage = "https://github.com/OmarTawashi/ContactManger"
+s.homepage = "https://github.com/OmarTawashi/ContactMangerT"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/OmarTawashi/ContactManger.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/OmarTawashi/ContactMangerT.git", :tag => "#{s.version}"}
 
 
 
