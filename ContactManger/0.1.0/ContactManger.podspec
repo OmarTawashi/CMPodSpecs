@@ -20,11 +20,11 @@ s.author = { "Omar Al tawashi" => "omaromar510@gmail.com" }
 
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
-s.homepage = "https://github.com/OmarTawashi/ContactMangerT"
+s.homepage = "https://github.com/OmarTawashi/ContactManger"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/OmarTawashi/ContactMangerT.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/OmarTawashi/ContactManger.git", :tag => "#{s.version}"}
 
 
 
@@ -37,9 +37,19 @@ s.framework = "ContactsUI"
 s.dependency 'NSManagedObject-HYPPropertyMapper'
 s.dependency 'DATAFilter'
 
-# 8
+ 8
 s.source_files = "ContactManger/**/*.{swift}"
 
 # 9
 s.resources = "ContactManger/**/*.{png,jpeg,jpg,storyboard,xib,xcdatamodeld}"
+
+#s.resource_bundle = {
+#'ContactManger' => ['Resources/ContactManger/Settings.bundle/*.png']
+#}
+
+
+  s.resource_bundles = {
+     'ContactManger' => ['Pod/Classes/**/*.{lproj,storyboard,xib,xcassets,json,imageset,png,xcdatamodeld}']
+  }
+
 end
